@@ -47,6 +47,7 @@ To exit, press escape.</p>
 </ul>
 </li>
 </ul>
+<h3 id="windows-installation">Windows Installation</h3>
 <p>For windows, i&#39;d recommend installing msys2, setting it up, and using its gcc compiler
 bear in mind this compiler is 64 bit
 Once you open msys2:</p>
@@ -56,7 +57,7 @@ Once you open msys2:</p>
 <pre class="codeblock language-console">gcc main.c FIRFilter/firfilter.c -o main.exe -lmysofa -lportaudio -lraylib
 </pre>
 <p>if you&#39;re building test.c, replace main.c with test.c and exclude the -lraylib flag</p>
-<h1 id="linux-installation">Linux installation</h1>
+<h3 id="linux-installation">Linux installation</h3>
 <p>I&#39;ll show ubuntu here, but use your own distribution&#39;s package manager
 run in console:</p>
 <pre class="codeblock language-console">sudo apt-get install libmysofa-dev libmysofa-utils libmysofa1 libasound-dev libasound2-dev portaudio19-dev libportaudio2 alsa-tools alsamixer
