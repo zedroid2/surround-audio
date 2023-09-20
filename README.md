@@ -7,7 +7,7 @@ please make sure to have both headphones in.</p>
 <li>main.exe</li>
 <li>guitartune.wav</li>
 <li>sofa-files
-  <li>      MRT01.sofa</li></li>
+   - MRT01.sofa</li>
 </ul>
 </li>
 </ul>
